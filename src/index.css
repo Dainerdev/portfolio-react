@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Diseño general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Variables */
+:root {
+
+    /* Colores */
+    --body-color: #88dda31a;
+    --sidebar-color: #fff;
+    --sidebar-hover-color: #f7fbf8;
+    --primary-color: #51B872;
+    --primary-color-light: #f7fbf8;
+    --altern-color: #e6e9e7;
+    --text-color: #0A0E0B;
+    --shadow-color: #dbdbdb;
+    --redes-background-color: #f7fbf8;
+    --img-shadow-color: #a8a7a7;
+    --footer-background-color: #a8a7a744;
+
+    /* Transiciones */
+    --trans-2s: all 0.2s ease;
+    --trans-3s: all 0.3s ease;
+    --trans-4s: all 0.4s ease;
+    --trans-5s: all 0.5s ease;
+}
+
+/* Diseño para el cuerpo de la pagina */
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    transition: var(--trans-5s);
+    background: var(--body-color);
+}
+
+/* Colores para el modo oscuro de la web */
+body.dark {
+    --body-color: #18191A;
+    --sidebar-color: #242526;
+    --sidebar-hover-color: #4a4e4c;
+    --primary-color: #3A3B3C;
+    --primary-color-light: #3A3B3C;
+    --altern-color: #e6e9e7;
+    --text-color: #ccc;
+    --shadow-color: #dbdbdb;
+    --img-shadow-color: #707070;
+}
+
+/* Diseño de las secciones */
+section {
+  position: relative;
+  left: 250px;
+  min-height: 100vh;
+  width: calc(100% -250px);
+  transition: var(--trans-5s);
+}
+
+.hidden {
+  display: none !important;
 }
