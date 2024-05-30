@@ -1,5 +1,8 @@
-
 section.home .text {
     color: var(--text-color);
     margin-left: -20%;
+}
+
+.id {
+    margin-left: 40%;
 }

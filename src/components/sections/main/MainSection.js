@@ -8,7 +8,7 @@ export const MainSection = () => {
         <div class="home-content">
             <div class="text">
                 <h1>Dainer Samuel Florian Arroyo<br/>
-                    <span>7502210020</span>
+                    <span class="id">7502210020</span>
                 </h1>
                 <h2>Mi página web personal.</h2>
             </div>
