@@ -1,15 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { FooterComponent } from "./components/FooterComponent";
+import { FooterComponent } from "./components/footerComponent/FooterComponent";
+import { NavComponent } from "./components/navComponent/NavComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>KSAJDAHS</p>       
-
-      </header>
+      <NavComponent />
       <FooterComponent />
     </div>
   );

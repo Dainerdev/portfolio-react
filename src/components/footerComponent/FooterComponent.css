@@ -1,0 +1,98 @@
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+    height: auto;
+    backdrop-filter: blur(10px);
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;    
+    background: var(--footer-background-color);
+}
+
+.icon-content a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    background: var(--redes-background-color);
+    position: relative;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px 0 var(--shadow-color);
+}
+
+.span-tooltip > i {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 40px;
+}
+
+.span-tooltip > span {
+    position: absolute;
+    width: fit-content;
+    font-size: small;
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: inherit;
+    padding: 3px 10px;
+    border-radius: 4px;
+    bottom: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--trans-2s);
+    color: #0A0E0B;
+}
+  
+.span-tooltip > span::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: inherit;
+    transform: rotate(45deg);
+    top: calc(100% - 6px);
+    left: 40%;
+}
+  
+.span-tooltip > i:hover + span {
+    visibility: visible;
+    opacity: 1;
+    bottom: calc(100% + 6px);
+}
+
+div[id="contact"] {
+    width: 20%;
+    height: 55px;
+    margin-left: 15%;
+    float: left;
+    padding: 3vh;
+}
+
+footer span {
+    font-weight: 600;
+}
+footer .contact .copyright{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+div[id="redes"] {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 20px 0;
+    margin-right: 15%;
+    float: right;
+    padding: 3vh;
+}
