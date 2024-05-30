@@ -1,0 +1,59 @@
+.format {
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    text-align: justify;
+}
+.format .container {
+    position: absolute;
+    left: 20%;    
+    width: 70%;
+    padding-top: 60px;
+    color: var(--text-color);
+}
+.container .title {
+    max-width: 75%;
+    color: var(--text-color);
+}
+.title h3 {
+    position: relative;
+    left: 15%;
+    font-size: 70px;
+    font-weight: 600;    
+}
+.container .line {
+    position: relative;
+    width: 110%;
+    height: 2px;
+    left: 10px;
+    background: #51B872;
+}
+.container .stage {   
+    position: relative;
+    width: 90%;
+    margin-top: 20px;  
+    padding: 20px;
+}
+.stage h3 {
+    position: relative;
+    left: 5%;
+    font-size: 24px;
+    font-weight: 600; 
+    margin-top: 60px;  
+}
+.stage .univ h3 { 
+    margin-top: 20px;
+}
+.stage p {
+    position: relative;
+    margin-top: 20px;
+    left: 10%;
+    width: 80%;
+}
+.stage label {
+    font-weight: 600;
+}
+.stage .univ a {
+    text-decoration: none;
+    color: #51B872;
+}
