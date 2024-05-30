@@ -6,6 +6,8 @@ import { AboutSection } from "./components/sections/aboutMe/AboutSection";
 import { AcademySection } from "./components/sections/academy/AcademySection";
 import { ExperiencesSection } from "./components/sections/experiences/ExperiencesSection";
 import { MomentsSection } from "./components/sections/moments/MomentsSection";
+import { HobbiesSection } from "./components/sections/hobbies/HobbiesSection";
+
 
 function App() {
   return (
@@ -18,9 +20,10 @@ function App() {
       <AcademySection />
       <ExperiencesSection />
       <MomentsSection />
-
+      <HobbiesSection />
 
       <FooterComponent />
+      <script src="script.js"></script>
     </div>
   );
 }
