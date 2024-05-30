@@ -1,4 +1,5 @@
 /* Diseño de la seccion "home" */
 section.home .text {
     color: var(--text-color);
+    margin-left: -20%;
 }
