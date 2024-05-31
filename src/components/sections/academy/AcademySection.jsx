@@ -8,7 +8,7 @@ export const AcademySection = () => {
         <div className="container">
             <div className="row">
                 <div className="title">
-                    <h3>Formación Académica.</h3>
+                    <h3>Formación Académica</h3>
                     <div className="line"></div>
                 </div>
                 <div className="stage">
@@ -22,10 +22,10 @@ export const AcademySection = () => {
                         </p>
                     </div>
                     <div className="univ">
-                        <h3>Universitaria:</h3>
+                        <h3>Universidad:</h3>
                         <p>Actualmente, me encuentro estudiando la carrera 
-                            <label>Ingenieria de Software</label> en la 
-                            <a href="https://www.unicartagena.edu.co/" target="_blank"  rel="noreferrer noopener">Universidad de Cartagena</a>, 
+                            <label> Ingenieria de Software</label> en la  
+                            <a href="https://www.unicartagena.edu.co/" target="_blank"  rel="noreferrer noopener"> Universidad de Cartagena</a>, 
                             cursando quinto semestre. Esta etapa académica ha sido desafiante pero 
                             gratificante, ya que me ha permitido explorar en profundidad diversos 
                             aspectos del desarrollo de software. He trabajado en lenguajes de programación

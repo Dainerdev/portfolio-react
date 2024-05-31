@@ -12,12 +12,12 @@
     color: var(--text-color);
 }
 .container .title {
-    max-width: 75%;
+    max-width: 80%;
     color: var(--text-color);
 }
 .title h3 {
     position: relative;
-    left: 15%;
+    left: 10%;
     font-size: 70px;
     font-weight: 600;    
 }
@@ -31,15 +31,14 @@
 .container .stage {   
     position: relative;
     width: 90%;
-    margin-top: 20px;  
-    padding: 20px;
+    padding: 10px;
 }
 .stage h3 {
     position: relative;
     left: 5%;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600; 
-    margin-top: 60px;  
+    margin-top: 40px;  
 }
 .stage .univ h3 { 
     margin-top: 20px;
@@ -49,6 +48,7 @@
     margin-top: 20px;
     left: 10%;
     width: 80%;
+    font-size: 20px;
 }
 .stage label {
     font-weight: 600;

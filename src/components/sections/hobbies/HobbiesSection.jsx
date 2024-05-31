@@ -8,7 +8,7 @@ export const HobbiesSection = () => {
             <div className="hobb-container">
                 <div className="row">
                     <div className="title">
-                        <h3>Hobbies.</h3>
+                        <h3>Hobbies</h3>
                         <div className="line"></div>
                     </div>
                     <div className="list">

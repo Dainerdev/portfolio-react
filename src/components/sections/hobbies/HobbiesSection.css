@@ -17,13 +17,13 @@
 }
 .hobb-container .title {
     position: relative;
-    max-width: 75%;
+    max-width: 1fr;
     color: var(--text-color);
-    left: 20%;
+    left: 17%;
 }
 .title h3 {
     position: relative;
-    left: 15%;
+    left: 14%;
     font-size: 70px;
     font-weight: 600;    
 }
@@ -40,13 +40,15 @@
     width: 90%;
     height: auto;
     padding: 5%;
-    left: 12%;
+    margin-left: 15%;
+    margin-top: -5%;
 }
 .list i {
     margin-top: 50%;
     font-size: 200px;
 }
 .list span {
+    display: flex;
     position: relative;
     justify-content: center;
     align-items: center;

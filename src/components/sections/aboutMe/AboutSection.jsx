@@ -8,7 +8,7 @@ export const AboutSection = () => {
             <div className="about-container">
                 <div className="row">
                     <div className="sect-title">
-                        <h3>Acerca de mí.</h3>
+                        <h3>Acerca de mí</h3>
                         <div className="line"></div>
                     </div>
                 </div>

@@ -12,10 +12,11 @@
     padding-bottom: 70px;   
 }
 .sect-title {
-    max-width: 75%;
+    max-width: 80%;
     color: var(--text-color);
 }
 .sect-title h3 {
+    margin-left: 30%;
     font-size: 70px;
     font-weight: 600;
     position: relative;
@@ -27,6 +28,7 @@
 }
 
 .about-text {
+    margin-left: 3%;
     margin-top: 20px;
     padding: 20px;
     font-size: 20px;
@@ -41,8 +43,8 @@
 
 .about-text .contact-info {    
     position: absolute;
-    margin-top: 40px;    
-    left: 7%;
+    margin-top: 20px;    
+    margin-left: 10%;
 }
 .about-text .contact-info li {
     margin: 10px;

@@ -17,12 +17,12 @@ const ExperiencesSection = () => {
                 <div className="exp-container">
                     <div className="row">
                         <div className="title">
-                            <h3>Experiencia Laboral.</h3>
+                            <h3>Experiencia Laboral</h3>
                             <div className="line"></div>
                         </div>
                         <div className="info-container">                            
                             <center>
-                                <table>
+                                <table className="table">
                                     <thead>
                                         <tr>
                                             <th>ID</th>
@@ -36,28 +36,32 @@ const ExperiencesSection = () => {
                                     <tbody>
                                         {experiences != null ? (
                                             experiences.map(experiences => (                                
-                                                <tr>
+                                                <tr key={experiences.id}>
                                                     <td>
                                                         <a href={`/#Experiencia-Laboral/experience/${experiences.id}`}>{experiences.id}</a>
                                                     </td>
                                                     <td>
-                                                        <a href={`/#Experiencia-Laboral/experience/${experiences.id}`}>{experiences.empresa}</a>
+                                                        {experiences.empresa}
                                                     </td>
                                                     <td>
-                                                        <a href={`/#Experiencia-Laboral/experience/${experiences.id}`}>{experiences.puesto}</a>
+                                                        {experiences.puesto}
                                                     </td>
                                                     <td>
-                                                        <a href={`/#Experiencia-Laboral/experience/${experiences.id}`}>{experiences.responsabilidades}</a>
+                                                        {experiences.responsabilidades}
                                                     </td>
                                                     <td>
-                                                        <a href={`/#Experiencia-Laboral/experience/${experiences.id}`}>{experiences.fecha_inicio}</a>
+                                                        {experiences.fecha_inicio}
                                                     </td>
                                                     <td>
-                                                        <a href={`/#Experiencia-Laboral/experience/${experiences.id}`}>{experiences.fecha_fin}</a>
+                                                        {experiences.fecha_fin}
                                                     </td>
                                                 </tr>
                                             ))
-                                        ): ('Experiences not found')}    
+                                        ) : (
+                                            <tr>
+                                                <td colSpan={5}>Experiences not found</td>
+                                            </tr>                                            
+                                        )}    
                                     </tbody>
                                 </table> <br />
                                 <span className="span">

@@ -15,9 +15,9 @@
     max-width: 1fr;
     color: var(--text-color);
 }
-.title h3 {
+.exp-container .title h3 {
     position: relative;
-    margin-left: 10%;
+    margin-left: 12%;
     font-size: 70px;
     font-weight: 600;    
 }
@@ -57,7 +57,7 @@ tr:nth-child(odd) {
     background-color: white;
 }
 
-a {
+.table a {
     text-decoration: none;
     color: #222;
     cursor: default;
