@@ -28,6 +28,7 @@ const ExperiencesSection = () => {
                                             <th>ID</th>
                                             <th>EMPRESA</th>
                                             <th>PUESTO</th>
+                                            <th>RESPONSABILIDADES</th>
                                             <th>FECHA INICIO</th>
                                             <th>FECHA FIN</th>
                                         </tr>
@@ -46,6 +47,9 @@ const ExperiencesSection = () => {
                                                         <a href={`/#Experiencia-Laboral/experience/${experiences.id}`}>{experiences.puesto}</a>
                                                     </td>
                                                     <td>
+                                                        <a href={`/#Experiencia-Laboral/experience/${experiences.id}`}>{experiences.responsabilidades}</a>
+                                                    </td>
+                                                    <td>
                                                         <a href={`/#Experiencia-Laboral/experience/${experiences.id}`}>{experiences.fecha_inicio}</a>
                                                     </td>
                                                     <td>
@@ -55,7 +59,10 @@ const ExperiencesSection = () => {
                                             ))
                                         ): ('Experiences not found')}    
                                     </tbody>
-                                </table>
+                                </table> <br />
+                                <span className="span">
+                                    Estos son <strong>únicamente ejemplos</strong> para el desarrollo de la actividad. <br />
+                                </span>
                             </center> 
                         </div>
                     </div>
