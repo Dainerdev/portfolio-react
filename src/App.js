@@ -1,10 +1,11 @@
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import { FooterComponent } from "./components/footerComponent/FooterComponent";
 import { NavComponent } from "./components/navComponent/NavComponent";
 import { MainSection } from "./components/sections/main/MainSection";
 import { AboutSection } from "./components/sections/aboutMe/AboutSection";
 import { AcademySection } from "./components/sections/academy/AcademySection";
-import { ExperiencesSection } from "./components/sections/experiences/ExperiencesSection";
+import ExperiencesSection from "./components/sections/experiences/ExperiencesSection";
 import { MomentsSection } from "./components/sections/moments/MomentsSection";
 import { HobbiesSection } from "./components/sections/hobbies/HobbiesSection";
 import { useEffect } from "react";
@@ -31,7 +32,11 @@ function App() {
       <MainSection />
       <AboutSection />
       <AcademySection />
-      <ExperiencesSection />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<ExperiencesSection></ExperiencesSection>}></Route>        
+      </Routes>
+      </BrowserRouter>
       <MomentsSection />
       <HobbiesSection />
 

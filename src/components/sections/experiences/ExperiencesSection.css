@@ -53,3 +53,68 @@
     margin-top: 10%;
     font-weight: 500;
 }
+
+/* added */
+.experiences-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.experience-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.experience-form input,
+.experience-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.experience-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.experience-list {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-list li {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.experience-list h3 {
+    margin: 0 0 10px 0;
+}
+
+.experience-list button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.experience-list button:nth-child(1) {
+    background-color: #28a745;
+    color: white;
+}
+
+.experience-list button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+}

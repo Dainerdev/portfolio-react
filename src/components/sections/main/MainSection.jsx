@@ -4,15 +4,15 @@ import "./MainSection.css";
 export const MainSection = () => {
   return (
     <div>
-        <section id="Inicio" class="home ">
-        <div class="home-content">
-            <div class="text">
+        <section id="Inicio" className="home ">
+        <div className="home-content">
+            <div className="text">
                 <h1>Dainer Samuel Florian Arroyo<br/>
-                    <span class="id">7502210020</span>
+                    <span className="id">7502210020</span>
                 </h1>
                 <h2>Mi página web personal.</h2>
             </div>
-            <div class="img-home">
+            <div className="img-home">
                 <img src="/foto fondo blanco.jpg" alt="Imagen de Portada"/>
             </div>
         </div>
